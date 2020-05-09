@@ -5,5 +5,5 @@ In the Spring of 2020, I had the opporunity to compete in the first University o
 Most of our work was done in Google Drive and Hangouts, and I'm writing this GitHub as a project retrospective. In this repository, I'll be talking through our project's process as we navigated through the project and our findings we used to make our recommendations. You can find the high level summary in our Final Presentation Powerpoint.
 
 
-### Datasets and Data Cleaning=
+### Datasets and Data Cleaning
 The data we used came from the Minnesota Department of Health's All Payer Claims Database. The data came in the form of two spreadsheets: Prescription Summary and Drug Detail. 
