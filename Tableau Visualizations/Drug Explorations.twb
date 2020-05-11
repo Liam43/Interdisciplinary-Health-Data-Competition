@@ -1,0 +1,2057 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20201.20.0219.0753                               -->
+<workbook original-version='18.1' source-build='2020.1.0 (20201.20.0219.0753)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Sheet1 (Drug_Clean_v2)' inline='true' name='federated.130a83c0uqm20r1e5bykz1rprdah' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Drug_Clean_v2' name='excel-direct.0iu4jd51lhied91gd6o1p13h0y7r'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/William Wu/Documents/Health Data Competition/Clean/Drug_Clean_v2.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.0iu4jd51lhied91gd6o1p13h0y7r' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:CK10001:no:A1:CK10001:0' header='yes' outcome='2'>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='integer' name='YEAR_2012' ordinal='1' />
+            <column datatype='string' name='RECORD_TYPE_2012' ordinal='2' />
+            <column datatype='integer' name='NUMBER_SCRIPTS_2012' ordinal='3' />
+            <column datatype='integer' name='NDC9_2012' ordinal='4' />
+            <column datatype='string' name='PRODUCT_NDC_2012' ordinal='5' />
+            <column datatype='integer' name='LAUNCH_YEAR_2012' ordinal='6' />
+            <column datatype='string' name='NPROPNAME_2012' ordinal='7' />
+            <column datatype='string' name='PROPNAME_2012' ordinal='8' />
+            <column datatype='string' name='GENERIC_DRUG_IND_CODE_2012' ordinal='9' />
+            <column datatype='string' name='THER_CLASS_2012' ordinal='10' />
+            <column datatype='string' name='LABELERNAME_2012' ordinal='11' />
+            <column datatype='string' name='DOSAGE_FORM_2012' ordinal='12' />
+            <column datatype='string' name='ACTIVE_STRENGTH_2012' ordinal='13' />
+            <column datatype='string' name='ACTIVE_STRENGTH_UNIT_2012' ordinal='14' />
+            <column datatype='string' name='PAYER_2012' ordinal='15' />
+            <column datatype='integer' name='UNIQUE_MEMBERS_2012' ordinal='16' />
+            <column datatype='real' name='TOTAL_COST_2012' ordinal='17' />
+            <column datatype='real' name='COST_PER_USER_2012' ordinal='18' />
+            <column datatype='real' name='COST_PER_SCRIPT_2012' ordinal='19' />
+            <column datatype='real' name='COST_PER_DAYS_SUPPLY_2012' ordinal='20' />
+            <column datatype='real' name='COST_PER_UNIT_DISPENSED_2012' ordinal='21' />
+            <column datatype='integer' name='TOTAL_SCRIPTS_FILLED_2012' ordinal='22' />
+            <column datatype='real' name='DAYS_SUPPLY_MEDIAN_2012' ordinal='23' />
+            <column datatype='real' name='DAYS_SUPPLY_MEAN_2012' ordinal='24' />
+            <column datatype='real' name='DAYS_SUPPLY_STDDEV_2012' ordinal='25' />
+            <column datatype='real' name='QUANTITY_MEDIAN_2012' ordinal='26' />
+            <column datatype='real' name='QUANTITY_MEAN_2012' ordinal='27' />
+            <column datatype='real' name='QUANTITY_STDDEV_2012' ordinal='28' />
+            <column datatype='real' name='INSURER_PAID_MEDIAN_2012' ordinal='29' />
+            <column datatype='real' name='INSURER_PAID_MEAN_2012' ordinal='30' />
+            <column datatype='real' name='INSURER_PAID_STDDEV_2012' ordinal='31' />
+            <column datatype='real' name='INSURER_PAID_SUM_2012' ordinal='32' />
+            <column datatype='real' name='MEMBER_PAID_MEDIAN_2012' ordinal='33' />
+            <column datatype='real' name='MEMBER_PAID_MEAN_2012' ordinal='34' />
+            <column datatype='real' name='MEMBER_PAID_STDDEV_2012' ordinal='35' />
+            <column datatype='real' name='MEMBER_PAID_SUM_2012' ordinal='36' />
+            <column datatype='real' name='TOTAL_PAID_MEDIAN_2012' ordinal='37' />
+            <column datatype='real' name='TOTAL_PAID_MEAN_2012' ordinal='38' />
+            <column datatype='real' name='TOTAL_PAID_STDDEV_2012' ordinal='39' />
+            <column datatype='real' name='TOTAL_PAID_SUM_2012' ordinal='40' />
+            <column datatype='integer' name='YEAR_2016' ordinal='41' />
+            <column datatype='string' name='RECORD_TYPE_2016' ordinal='42' />
+            <column datatype='integer' name='NUMBER_SCRIPTS_2016' ordinal='43' />
+            <column datatype='integer' name='NDC9_2016' ordinal='44' />
+            <column datatype='string' name='PRODUCT_NDC_2016' ordinal='45' />
+            <column datatype='integer' name='LAUNCH_YEAR_2016' ordinal='46' />
+            <column datatype='string' name='NPROPNAME_2016' ordinal='47' />
+            <column datatype='string' name='PROPNAME_2016' ordinal='48' />
+            <column datatype='string' name='GENERIC_DRUG_IND_CODE_2016' ordinal='49' />
+            <column datatype='string' name='THER_CLASS_2016' ordinal='50' />
+            <column datatype='string' name='LABELERNAME_2016' ordinal='51' />
+            <column datatype='string' name='DOSAGE_FORM_2016' ordinal='52' />
+            <column datatype='string' name='ACTIVE_STRENGTH_2016' ordinal='53' />
+            <column datatype='string' name='ACTIVE_STRENGTH_UNIT_2016' ordinal='54' />
+            <column datatype='string' name='PAYER_2016' ordinal='55' />
+            <column datatype='integer' name='UNIQUE_MEMBERS_2016' ordinal='56' />
+            <column datatype='real' name='TOTAL_COST_2016' ordinal='57' />
+            <column datatype='real' name='COST_PER_USER_2016' ordinal='58' />
+            <column datatype='real' name='COST_PER_SCRIPT_2016' ordinal='59' />
+            <column datatype='real' name='COST_PER_DAYS_SUPPLY_2016' ordinal='60' />
+            <column datatype='real' name='COST_PER_UNIT_DISPENSED_2016' ordinal='61' />
+            <column datatype='integer' name='TOTAL_SCRIPTS_FILLED_2016' ordinal='62' />
+            <column datatype='real' name='DAYS_SUPPLY_MEDIAN_2016' ordinal='63' />
+            <column datatype='real' name='DAYS_SUPPLY_MEAN_2016' ordinal='64' />
+            <column datatype='real' name='DAYS_SUPPLY_STDDEV_2016' ordinal='65' />
+            <column datatype='real' name='QUANTITY_MEDIAN_2016' ordinal='66' />
+            <column datatype='real' name='QUANTITY_MEAN_2016' ordinal='67' />
+            <column datatype='real' name='QUANTITY_STDDEV_2016' ordinal='68' />
+            <column datatype='real' name='INSURER_PAID_MEDIAN_2016' ordinal='69' />
+            <column datatype='real' name='INSURER_PAID_MEAN_2016' ordinal='70' />
+            <column datatype='real' name='INSURER_PAID_STDDEV_2016' ordinal='71' />
+            <column datatype='real' name='INSURER_PAID_SUM_2016' ordinal='72' />
+            <column datatype='real' name='MEMBER_PAID_MEDIAN_2016' ordinal='73' />
+            <column datatype='real' name='MEMBER_PAID_MEAN_2016' ordinal='74' />
+            <column datatype='real' name='MEMBER_PAID_STDDEV_2016' ordinal='75' />
+            <column datatype='real' name='MEMBER_PAID_SUM_2016' ordinal='76' />
+            <column datatype='real' name='TOTAL_PAID_MEDIAN_2016' ordinal='77' />
+            <column datatype='real' name='TOTAL_PAID_MEAN_2016' ordinal='78' />
+            <column datatype='real' name='TOTAL_PAID_STDDEV_2016' ordinal='79' />
+            <column datatype='real' name='TOTAL_PAID_SUM_2016' ordinal='80' />
+            <column datatype='string' name='NPROPNAMES_2012' ordinal='81' />
+            <column datatype='string' name='NPROPNAMES_2016' ordinal='82' />
+            <column datatype='string' name='DOSAGE_FORMS_2012' ordinal='83' />
+            <column datatype='string' name='DOSAGE_FORMS_2016' ordinal='84' />
+            <column datatype='string' name='ACTIVE_STRENGTHS_2012' ordinal='85' />
+            <column datatype='string' name='ACTIVE_STRENGTHS_2016' ordinal='86' />
+            <column datatype='string' name='ACTIVE_STRENGTH_UNITS_2012' ordinal='87' />
+            <column datatype='string' name='ACTIVE_STRENGTH_UNITS_2016' ordinal='88' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>YEAR_2012</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[YEAR_2012]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>YEAR_2012</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RECORD_TYPE_2012</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[RECORD_TYPE_2012]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>RECORD_TYPE_2012</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NUMBER_SCRIPTS_2012</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[NUMBER_SCRIPTS_2012]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>NUMBER_SCRIPTS_2012</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NDC9_2012</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[NDC9_2012]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>NDC9_2012</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PRODUCT_NDC_2012</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[PRODUCT_NDC_2012]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>PRODUCT_NDC_2012</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LAUNCH_YEAR_2012</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[LAUNCH_YEAR_2012]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>LAUNCH_YEAR_2012</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NPROPNAME_2012</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[NPROPNAME_2012]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>NPROPNAME_2012</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PROPNAME_2012</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[PROPNAME_2012]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>PROPNAME_2012</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GENERIC_DRUG_IND_CODE_2012</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[GENERIC_DRUG_IND_CODE_2012]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>GENERIC_DRUG_IND_CODE_2012</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>THER_CLASS_2012</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[THER_CLASS_2012]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>THER_CLASS_2012</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LABELERNAME_2012</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[LABELERNAME_2012]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>LABELERNAME_2012</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DOSAGE_FORM_2012</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[DOSAGE_FORM_2012]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>DOSAGE_FORM_2012</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ACTIVE_STRENGTH_2012</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[ACTIVE_STRENGTH_2012]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>ACTIVE_STRENGTH_2012</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ACTIVE_STRENGTH_UNIT_2012</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[ACTIVE_STRENGTH_UNIT_2012]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>ACTIVE_STRENGTH_UNIT_2012</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PAYER_2012</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[PAYER_2012]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>PAYER_2012</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>UNIQUE_MEMBERS_2012</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[UNIQUE_MEMBERS_2012]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>UNIQUE_MEMBERS_2012</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TOTAL_COST_2012</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[TOTAL_COST_2012]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>TOTAL_COST_2012</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>COST_PER_USER_2012</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[COST_PER_USER_2012]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>COST_PER_USER_2012</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>COST_PER_SCRIPT_2012</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[COST_PER_SCRIPT_2012]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>COST_PER_SCRIPT_2012</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>COST_PER_DAYS_SUPPLY_2012</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[COST_PER_DAYS_SUPPLY_2012]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>COST_PER_DAYS_SUPPLY_2012</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>COST_PER_UNIT_DISPENSED_2012</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[COST_PER_UNIT_DISPENSED_2012]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>COST_PER_UNIT_DISPENSED_2012</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TOTAL_SCRIPTS_FILLED_2012</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[TOTAL_SCRIPTS_FILLED_2012]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>TOTAL_SCRIPTS_FILLED_2012</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DAYS_SUPPLY_MEDIAN_2012</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[DAYS_SUPPLY_MEDIAN_2012]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>DAYS_SUPPLY_MEDIAN_2012</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DAYS_SUPPLY_MEAN_2012</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[DAYS_SUPPLY_MEAN_2012]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>DAYS_SUPPLY_MEAN_2012</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DAYS_SUPPLY_STDDEV_2012</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[DAYS_SUPPLY_STDDEV_2012]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>DAYS_SUPPLY_STDDEV_2012</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>QUANTITY_MEDIAN_2012</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[QUANTITY_MEDIAN_2012]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>QUANTITY_MEDIAN_2012</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>QUANTITY_MEAN_2012</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[QUANTITY_MEAN_2012]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>QUANTITY_MEAN_2012</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>QUANTITY_STDDEV_2012</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[QUANTITY_STDDEV_2012]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>QUANTITY_STDDEV_2012</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>INSURER_PAID_MEDIAN_2012</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[INSURER_PAID_MEDIAN_2012]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>INSURER_PAID_MEDIAN_2012</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>INSURER_PAID_MEAN_2012</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[INSURER_PAID_MEAN_2012]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>INSURER_PAID_MEAN_2012</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>INSURER_PAID_STDDEV_2012</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[INSURER_PAID_STDDEV_2012]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>INSURER_PAID_STDDEV_2012</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>INSURER_PAID_SUM_2012</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[INSURER_PAID_SUM_2012]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>INSURER_PAID_SUM_2012</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MEMBER_PAID_MEDIAN_2012</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MEMBER_PAID_MEDIAN_2012]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>MEMBER_PAID_MEDIAN_2012</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MEMBER_PAID_MEAN_2012</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MEMBER_PAID_MEAN_2012]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>MEMBER_PAID_MEAN_2012</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MEMBER_PAID_STDDEV_2012</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MEMBER_PAID_STDDEV_2012]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>MEMBER_PAID_STDDEV_2012</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MEMBER_PAID_SUM_2012</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MEMBER_PAID_SUM_2012]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>MEMBER_PAID_SUM_2012</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TOTAL_PAID_MEDIAN_2012</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[TOTAL_PAID_MEDIAN_2012]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>TOTAL_PAID_MEDIAN_2012</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TOTAL_PAID_MEAN_2012</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[TOTAL_PAID_MEAN_2012]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>TOTAL_PAID_MEAN_2012</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TOTAL_PAID_STDDEV_2012</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[TOTAL_PAID_STDDEV_2012]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>TOTAL_PAID_STDDEV_2012</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TOTAL_PAID_SUM_2012</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[TOTAL_PAID_SUM_2012]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>TOTAL_PAID_SUM_2012</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>YEAR_2016</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[YEAR_2016]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>YEAR_2016</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RECORD_TYPE_2016</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[RECORD_TYPE_2016]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>RECORD_TYPE_2016</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NUMBER_SCRIPTS_2016</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[NUMBER_SCRIPTS_2016]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>NUMBER_SCRIPTS_2016</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NDC9_2016</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[NDC9_2016]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>NDC9_2016</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PRODUCT_NDC_2016</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[PRODUCT_NDC_2016]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>PRODUCT_NDC_2016</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LAUNCH_YEAR_2016</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[LAUNCH_YEAR_2016]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>LAUNCH_YEAR_2016</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NPROPNAME_2016</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[NPROPNAME_2016]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>NPROPNAME_2016</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PROPNAME_2016</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[PROPNAME_2016]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>PROPNAME_2016</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GENERIC_DRUG_IND_CODE_2016</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[GENERIC_DRUG_IND_CODE_2016]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>GENERIC_DRUG_IND_CODE_2016</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>THER_CLASS_2016</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[THER_CLASS_2016]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>THER_CLASS_2016</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LABELERNAME_2016</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[LABELERNAME_2016]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>LABELERNAME_2016</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DOSAGE_FORM_2016</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[DOSAGE_FORM_2016]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>DOSAGE_FORM_2016</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ACTIVE_STRENGTH_2016</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[ACTIVE_STRENGTH_2016]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>ACTIVE_STRENGTH_2016</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ACTIVE_STRENGTH_UNIT_2016</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[ACTIVE_STRENGTH_UNIT_2016]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>ACTIVE_STRENGTH_UNIT_2016</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PAYER_2016</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[PAYER_2016]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>PAYER_2016</remote-alias>
+            <ordinal>55</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>UNIQUE_MEMBERS_2016</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[UNIQUE_MEMBERS_2016]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>UNIQUE_MEMBERS_2016</remote-alias>
+            <ordinal>56</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TOTAL_COST_2016</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[TOTAL_COST_2016]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>TOTAL_COST_2016</remote-alias>
+            <ordinal>57</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>COST_PER_USER_2016</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[COST_PER_USER_2016]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>COST_PER_USER_2016</remote-alias>
+            <ordinal>58</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>COST_PER_SCRIPT_2016</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[COST_PER_SCRIPT_2016]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>COST_PER_SCRIPT_2016</remote-alias>
+            <ordinal>59</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>COST_PER_DAYS_SUPPLY_2016</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[COST_PER_DAYS_SUPPLY_2016]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>COST_PER_DAYS_SUPPLY_2016</remote-alias>
+            <ordinal>60</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>COST_PER_UNIT_DISPENSED_2016</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[COST_PER_UNIT_DISPENSED_2016]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>COST_PER_UNIT_DISPENSED_2016</remote-alias>
+            <ordinal>61</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TOTAL_SCRIPTS_FILLED_2016</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[TOTAL_SCRIPTS_FILLED_2016]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>TOTAL_SCRIPTS_FILLED_2016</remote-alias>
+            <ordinal>62</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DAYS_SUPPLY_MEDIAN_2016</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[DAYS_SUPPLY_MEDIAN_2016]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>DAYS_SUPPLY_MEDIAN_2016</remote-alias>
+            <ordinal>63</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DAYS_SUPPLY_MEAN_2016</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[DAYS_SUPPLY_MEAN_2016]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>DAYS_SUPPLY_MEAN_2016</remote-alias>
+            <ordinal>64</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DAYS_SUPPLY_STDDEV_2016</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[DAYS_SUPPLY_STDDEV_2016]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>DAYS_SUPPLY_STDDEV_2016</remote-alias>
+            <ordinal>65</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>QUANTITY_MEDIAN_2016</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[QUANTITY_MEDIAN_2016]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>QUANTITY_MEDIAN_2016</remote-alias>
+            <ordinal>66</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>QUANTITY_MEAN_2016</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[QUANTITY_MEAN_2016]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>QUANTITY_MEAN_2016</remote-alias>
+            <ordinal>67</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>QUANTITY_STDDEV_2016</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[QUANTITY_STDDEV_2016]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>QUANTITY_STDDEV_2016</remote-alias>
+            <ordinal>68</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>INSURER_PAID_MEDIAN_2016</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[INSURER_PAID_MEDIAN_2016]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>INSURER_PAID_MEDIAN_2016</remote-alias>
+            <ordinal>69</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>INSURER_PAID_MEAN_2016</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[INSURER_PAID_MEAN_2016]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>INSURER_PAID_MEAN_2016</remote-alias>
+            <ordinal>70</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>INSURER_PAID_STDDEV_2016</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[INSURER_PAID_STDDEV_2016]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>INSURER_PAID_STDDEV_2016</remote-alias>
+            <ordinal>71</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>INSURER_PAID_SUM_2016</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[INSURER_PAID_SUM_2016]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>INSURER_PAID_SUM_2016</remote-alias>
+            <ordinal>72</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MEMBER_PAID_MEDIAN_2016</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MEMBER_PAID_MEDIAN_2016]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>MEMBER_PAID_MEDIAN_2016</remote-alias>
+            <ordinal>73</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MEMBER_PAID_MEAN_2016</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MEMBER_PAID_MEAN_2016]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>MEMBER_PAID_MEAN_2016</remote-alias>
+            <ordinal>74</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MEMBER_PAID_STDDEV_2016</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MEMBER_PAID_STDDEV_2016]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>MEMBER_PAID_STDDEV_2016</remote-alias>
+            <ordinal>75</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MEMBER_PAID_SUM_2016</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MEMBER_PAID_SUM_2016]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>MEMBER_PAID_SUM_2016</remote-alias>
+            <ordinal>76</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TOTAL_PAID_MEDIAN_2016</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[TOTAL_PAID_MEDIAN_2016]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>TOTAL_PAID_MEDIAN_2016</remote-alias>
+            <ordinal>77</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TOTAL_PAID_MEAN_2016</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[TOTAL_PAID_MEAN_2016]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>TOTAL_PAID_MEAN_2016</remote-alias>
+            <ordinal>78</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TOTAL_PAID_STDDEV_2016</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[TOTAL_PAID_STDDEV_2016]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>TOTAL_PAID_STDDEV_2016</remote-alias>
+            <ordinal>79</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TOTAL_PAID_SUM_2016</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[TOTAL_PAID_SUM_2016]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>TOTAL_PAID_SUM_2016</remote-alias>
+            <ordinal>80</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NPROPNAMES_2012</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[NPROPNAMES_2012]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>NPROPNAMES_2012</remote-alias>
+            <ordinal>81</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NPROPNAMES_2016</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[NPROPNAMES_2016]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>NPROPNAMES_2016</remote-alias>
+            <ordinal>82</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DOSAGE_FORMS_2012</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[DOSAGE_FORMS_2012]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>DOSAGE_FORMS_2012</remote-alias>
+            <ordinal>83</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DOSAGE_FORMS_2016</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[DOSAGE_FORMS_2016]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>DOSAGE_FORMS_2016</remote-alias>
+            <ordinal>84</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ACTIVE_STRENGTHS_2012</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[ACTIVE_STRENGTHS_2012]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>ACTIVE_STRENGTHS_2012</remote-alias>
+            <ordinal>85</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ACTIVE_STRENGTHS_2016</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[ACTIVE_STRENGTHS_2016]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>ACTIVE_STRENGTHS_2016</remote-alias>
+            <ordinal>86</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ACTIVE_STRENGTH_UNITS_2012</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[ACTIVE_STRENGTH_UNITS_2012]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>ACTIVE_STRENGTH_UNITS_2012</remote-alias>
+            <ordinal>87</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ACTIVE_STRENGTH_UNITS_2016</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[ACTIVE_STRENGTH_UNITS_2016]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>ACTIVE_STRENGTH_UNITS_2016</remote-alias>
+            <ordinal>88</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:CK10001:no:A1:CK10001:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Active Strengths 2012' datatype='string' name='[ACTIVE_STRENGTHS_2012]' role='dimension' type='nominal' />
+      <column caption='Active Strengths 2016' datatype='string' name='[ACTIVE_STRENGTHS_2016]' role='dimension' type='nominal' />
+      <column caption='Active Strength 2012' datatype='string' name='[ACTIVE_STRENGTH_2012]' role='dimension' type='nominal' />
+      <column caption='Active Strength 2016' datatype='string' name='[ACTIVE_STRENGTH_2016]' role='dimension' type='nominal' />
+      <column caption='Active Strength Units 2012' datatype='string' name='[ACTIVE_STRENGTH_UNITS_2012]' role='dimension' type='nominal' />
+      <column caption='Active Strength Units 2016' datatype='string' name='[ACTIVE_STRENGTH_UNITS_2016]' role='dimension' type='nominal' />
+      <column caption='Active Strength Unit 2012' datatype='string' name='[ACTIVE_STRENGTH_UNIT_2012]' role='dimension' type='nominal' />
+      <column caption='Active Strength Unit 2016' datatype='string' name='[ACTIVE_STRENGTH_UNIT_2016]' role='dimension' type='nominal' />
+      <column caption='Cost Per Days Supply 2012' datatype='real' name='[COST_PER_DAYS_SUPPLY_2012]' role='measure' type='quantitative' />
+      <column caption='Cost Per Days Supply 2016' datatype='real' name='[COST_PER_DAYS_SUPPLY_2016]' role='measure' type='quantitative' />
+      <column caption='Cost Per Script 2012' datatype='real' name='[COST_PER_SCRIPT_2012]' role='measure' type='quantitative' />
+      <column caption='Cost Per Script 2016' datatype='real' name='[COST_PER_SCRIPT_2016]' role='measure' type='quantitative' />
+      <column caption='Cost Per Unit Dispensed 2012' datatype='real' name='[COST_PER_UNIT_DISPENSED_2012]' role='measure' type='quantitative' />
+      <column caption='Cost Per Unit Dispensed 2016' datatype='real' name='[COST_PER_UNIT_DISPENSED_2016]' role='measure' type='quantitative' />
+      <column caption='Cost Per User 2012' datatype='real' name='[COST_PER_USER_2012]' role='measure' type='quantitative' />
+      <column caption='Cost Per User 2016' datatype='real' name='[COST_PER_USER_2016]' role='measure' type='quantitative' />
+      <column caption='Days Supply Mean 2012' datatype='real' name='[DAYS_SUPPLY_MEAN_2012]' role='measure' type='quantitative' />
+      <column caption='Days Supply Mean 2016' datatype='real' name='[DAYS_SUPPLY_MEAN_2016]' role='measure' type='quantitative' />
+      <column caption='Days Supply Median 2012' datatype='real' name='[DAYS_SUPPLY_MEDIAN_2012]' role='measure' type='quantitative' />
+      <column caption='Days Supply Median 2016' datatype='real' name='[DAYS_SUPPLY_MEDIAN_2016]' role='measure' type='quantitative' />
+      <column caption='Days Supply Stddev 2012' datatype='real' name='[DAYS_SUPPLY_STDDEV_2012]' role='measure' type='quantitative' />
+      <column caption='Days Supply Stddev 2016' datatype='real' name='[DAYS_SUPPLY_STDDEV_2016]' role='measure' type='quantitative' />
+      <column caption='Dosage Forms 2012' datatype='string' name='[DOSAGE_FORMS_2012]' role='dimension' type='nominal' />
+      <column caption='Dosage Forms 2016' datatype='string' name='[DOSAGE_FORMS_2016]' role='dimension' type='nominal' />
+      <column caption='Dosage Form 2012' datatype='string' name='[DOSAGE_FORM_2012]' role='dimension' type='nominal' />
+      <column caption='Dosage Form 2016' datatype='string' name='[DOSAGE_FORM_2016]' role='dimension' type='nominal' />
+      <column caption='Generic Drug Ind Code 2012' datatype='string' name='[GENERIC_DRUG_IND_CODE_2012]' role='dimension' type='nominal' />
+      <column caption='Generic Drug Ind Code 2016' datatype='string' name='[GENERIC_DRUG_IND_CODE_2016]' role='dimension' type='nominal' />
+      <column caption='Insurer Paid Mean 2012' datatype='real' name='[INSURER_PAID_MEAN_2012]' role='measure' type='quantitative' />
+      <column caption='Insurer Paid Mean 2016' datatype='real' name='[INSURER_PAID_MEAN_2016]' role='measure' type='quantitative' />
+      <column caption='Insurer Paid Median 2012' datatype='real' name='[INSURER_PAID_MEDIAN_2012]' role='measure' type='quantitative' />
+      <column caption='Insurer Paid Median 2016' datatype='real' name='[INSURER_PAID_MEDIAN_2016]' role='measure' type='quantitative' />
+      <column caption='Insurer Paid Stddev 2012' datatype='real' name='[INSURER_PAID_STDDEV_2012]' role='measure' type='quantitative' />
+      <column caption='Insurer Paid Stddev 2016' datatype='real' name='[INSURER_PAID_STDDEV_2016]' role='measure' type='quantitative' />
+      <column caption='Insurer Paid Sum 2012' datatype='real' name='[INSURER_PAID_SUM_2012]' role='measure' type='quantitative' />
+      <column caption='Insurer Paid Sum 2016' datatype='real' name='[INSURER_PAID_SUM_2016]' role='measure' type='quantitative' />
+      <column caption='Labelername 2012' datatype='string' name='[LABELERNAME_2012]' role='dimension' type='nominal' />
+      <column caption='Labelername 2016' datatype='string' name='[LABELERNAME_2016]' role='dimension' type='nominal' />
+      <column caption='Launch Year 2012' datatype='integer' name='[LAUNCH_YEAR_2012]' role='dimension' type='quantitative' />
+      <column caption='Launch Year 2016' datatype='integer' name='[LAUNCH_YEAR_2016]' role='dimension' type='quantitative' />
+      <column caption='Member Paid Mean 2012' datatype='real' name='[MEMBER_PAID_MEAN_2012]' role='measure' type='quantitative' />
+      <column caption='Member Paid Mean 2016' datatype='real' name='[MEMBER_PAID_MEAN_2016]' role='measure' type='quantitative' />
+      <column caption='Member Paid Median 2012' datatype='real' name='[MEMBER_PAID_MEDIAN_2012]' role='measure' type='quantitative' />
+      <column caption='Member Paid Median 2016' datatype='real' name='[MEMBER_PAID_MEDIAN_2016]' role='measure' type='quantitative' />
+      <column caption='Member Paid Stddev 2012' datatype='real' name='[MEMBER_PAID_STDDEV_2012]' role='measure' type='quantitative' />
+      <column caption='Member Paid Stddev 2016' datatype='real' name='[MEMBER_PAID_STDDEV_2016]' role='measure' type='quantitative' />
+      <column caption='Member Paid Sum 2012' datatype='real' name='[MEMBER_PAID_SUM_2012]' role='measure' type='quantitative' />
+      <column caption='Member Paid Sum 2016' datatype='real' name='[MEMBER_PAID_SUM_2016]' role='measure' type='quantitative' />
+      <column caption='Ndc9 2012' datatype='integer' name='[NDC9_2012]' role='measure' type='quantitative' />
+      <column caption='Ndc9 2016' datatype='integer' name='[NDC9_2016]' role='measure' type='quantitative' />
+      <column caption='Npropnames 2012' datatype='string' name='[NPROPNAMES_2012]' role='dimension' type='nominal' />
+      <column caption='Npropnames 2016' datatype='string' name='[NPROPNAMES_2016]' role='dimension' type='nominal' />
+      <column caption='Npropname 2012' datatype='string' name='[NPROPNAME_2012]' role='dimension' type='nominal' />
+      <column caption='Npropname 2016' datatype='string' name='[NPROPNAME_2016]' role='dimension' type='nominal' />
+      <column caption='Number Scripts 2012' datatype='integer' name='[NUMBER_SCRIPTS_2012]' role='measure' type='quantitative' />
+      <column caption='Number Scripts 2016' datatype='integer' name='[NUMBER_SCRIPTS_2016]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column caption='Payer 2012' datatype='string' name='[PAYER_2012]' role='dimension' type='nominal' />
+      <column caption='Payer 2016' datatype='string' name='[PAYER_2016]' role='dimension' type='nominal' />
+      <column caption='Product Ndc 2012' datatype='string' name='[PRODUCT_NDC_2012]' role='dimension' type='nominal' />
+      <column caption='Product Ndc 2016' datatype='string' name='[PRODUCT_NDC_2016]' role='dimension' type='nominal' />
+      <column caption='Propname 2012' datatype='string' name='[PROPNAME_2012]' role='dimension' type='nominal' />
+      <column caption='Propname 2016' datatype='string' name='[PROPNAME_2016]' role='dimension' type='nominal' />
+      <column caption='Quantity Mean 2012' datatype='real' name='[QUANTITY_MEAN_2012]' role='measure' type='quantitative' />
+      <column caption='Quantity Mean 2016' datatype='real' name='[QUANTITY_MEAN_2016]' role='measure' type='quantitative' />
+      <column caption='Quantity Median 2012' datatype='real' name='[QUANTITY_MEDIAN_2012]' role='measure' type='quantitative' />
+      <column caption='Quantity Median 2016' datatype='real' name='[QUANTITY_MEDIAN_2016]' role='measure' type='quantitative' />
+      <column caption='Quantity Stddev 2012' datatype='real' name='[QUANTITY_STDDEV_2012]' role='measure' type='quantitative' />
+      <column caption='Quantity Stddev 2016' datatype='real' name='[QUANTITY_STDDEV_2016]' role='measure' type='quantitative' />
+      <column caption='Record Type 2012' datatype='string' name='[RECORD_TYPE_2012]' role='dimension' type='nominal' />
+      <column caption='Record Type 2016' datatype='string' name='[RECORD_TYPE_2016]' role='dimension' type='nominal' />
+      <column caption='Ther Class 2012' datatype='string' name='[THER_CLASS_2012]' role='dimension' type='nominal' />
+      <column caption='Ther Class 2016' datatype='string' name='[THER_CLASS_2016]' role='dimension' type='nominal' />
+      <column caption='Total Cost 2012' datatype='real' name='[TOTAL_COST_2012]' role='measure' type='quantitative' />
+      <column caption='Total Cost 2016' datatype='real' name='[TOTAL_COST_2016]' role='measure' type='quantitative' />
+      <column caption='Total Paid Mean 2012' datatype='real' name='[TOTAL_PAID_MEAN_2012]' role='measure' type='quantitative' />
+      <column caption='Total Paid Mean 2016' datatype='real' name='[TOTAL_PAID_MEAN_2016]' role='measure' type='quantitative' />
+      <column caption='Total Paid Median 2012' datatype='real' name='[TOTAL_PAID_MEDIAN_2012]' role='measure' type='quantitative' />
+      <column caption='Total Paid Median 2016' datatype='real' name='[TOTAL_PAID_MEDIAN_2016]' role='measure' type='quantitative' />
+      <column caption='Total Paid Stddev 2012' datatype='real' name='[TOTAL_PAID_STDDEV_2012]' role='measure' type='quantitative' />
+      <column caption='Total Paid Stddev 2016' datatype='real' name='[TOTAL_PAID_STDDEV_2016]' role='measure' type='quantitative' />
+      <column caption='Total Paid Sum 2012' datatype='real' name='[TOTAL_PAID_SUM_2012]' role='measure' type='quantitative' />
+      <column caption='Total Paid Sum 2016' datatype='real' name='[TOTAL_PAID_SUM_2016]' role='measure' type='quantitative' />
+      <column caption='Total Scripts Filled 2012' datatype='integer' name='[TOTAL_SCRIPTS_FILLED_2012]' role='measure' type='quantitative' />
+      <column caption='Total Scripts Filled 2016' datatype='integer' name='[TOTAL_SCRIPTS_FILLED_2016]' role='measure' type='quantitative' />
+      <column caption='Unique Members 2012' datatype='integer' name='[UNIQUE_MEMBERS_2012]' role='measure' type='quantitative' />
+      <column caption='Unique Members 2016' datatype='integer' name='[UNIQUE_MEMBERS_2016]' role='measure' type='quantitative' />
+      <column caption='Year 2012' datatype='integer' name='[YEAR_2012]' role='dimension' type='quantitative' />
+      <column caption='Year 2016' datatype='integer' name='[YEAR_2016]' role='dimension' type='quantitative' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.542821' measure-ordering='alphabetic' measure-percentage='0.457179' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (Drug_Clean_v2)' name='federated.130a83c0uqm20r1e5bykz1rprdah' />
+          </datasources>
+          <datasource-dependencies datasource='federated.130a83c0uqm20r1e5bykz1rprdah'>
+            <column caption='Member Paid Mean 2012' datatype='real' name='[MEMBER_PAID_MEAN_2012]' role='measure' type='quantitative' />
+            <column caption='Member Paid Mean 2016' datatype='real' name='[MEMBER_PAID_MEAN_2016]' role='measure' type='quantitative' />
+            <column caption='Npropnames 2016' datatype='string' name='[NPROPNAMES_2016]' role='dimension' type='nominal' />
+            <column caption='Npropname 2016' datatype='string' name='[NPROPNAME_2016]' role='dimension' type='nominal' />
+            <column-instance column='[NPROPNAMES_2016]' derivation='None' name='[none:NPROPNAMES_2016:nk]' pivot='key' type='nominal' />
+            <column-instance column='[NPROPNAME_2016]' derivation='None' name='[none:NPROPNAME_2016:nk]' pivot='key' type='nominal' />
+            <column-instance column='[MEMBER_PAID_MEAN_2012]' derivation='Sum' name='[sum:MEMBER_PAID_MEAN_2012:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[MEMBER_PAID_MEAN_2016]' derivation='Sum' name='[sum:MEMBER_PAID_MEAN_2016:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.130a83c0uqm20r1e5bykz1rprdah].[none:NPROPNAMES_2016:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:NPROPNAMES_2016:nk]' />
+              <groupfilter function='member' level='[none:NPROPNAMES_2016:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.130a83c0uqm20r1e5bykz1rprdah].[none:NPROPNAME_2016:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.130a83c0uqm20r1e5bykz1rprdah].[sum:MEMBER_PAID_MEAN_2016:qk]' shelf='columns' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.130a83c0uqm20r1e5bykz1rprdah].[none:NPROPNAMES_2016:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.130a83c0uqm20r1e5bykz1rprdah].[sum:MEMBER_PAID_MEAN_2016:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.130a83c0uqm20r1e5bykz1rprdah].[sum:MEMBER_PAID_MEAN_2012:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>([federated.130a83c0uqm20r1e5bykz1rprdah].[sum:MEMBER_PAID_MEAN_2016:qk] + [federated.130a83c0uqm20r1e5bykz1rprdah].[sum:MEMBER_PAID_MEAN_2012:qk])</rows>
+        <cols>[federated.130a83c0uqm20r1e5bykz1rprdah].[none:NPROPNAME_2016:nk]</cols>
+      </table>
+      <simple-id uuid='{0629C9ED-C842-4764-A49B-2E51439EB472}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (Drug_Clean_v2)' name='federated.130a83c0uqm20r1e5bykz1rprdah' />
+          </datasources>
+          <datasource-dependencies datasource='federated.130a83c0uqm20r1e5bykz1rprdah'>
+            <column caption='Generic Drug Ind Code 2016' datatype='string' name='[GENERIC_DRUG_IND_CODE_2016]' role='dimension' type='nominal' />
+            <column-instance column='[GENERIC_DRUG_IND_CODE_2016]' derivation='None' name='[none:GENERIC_DRUG_IND_CODE_2016:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols>[federated.130a83c0uqm20r1e5bykz1rprdah].[none:GENERIC_DRUG_IND_CODE_2016:nk]</cols>
+      </table>
+      <simple-id uuid='{21CC559E-E5D1-4A21-9E2C-137A342671C9}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.130a83c0uqm20r1e5bykz1rprdah].[none:ACTIVE_STRENGTH_2012:nk]</field>
+            <field>[federated.130a83c0uqm20r1e5bykz1rprdah].[none:ACTIVE_STRENGTH_2016:nk]</field>
+            <field>[federated.130a83c0uqm20r1e5bykz1rprdah].[none:NPROPNAMES_2016:nk]</field>
+            <field>[federated.130a83c0uqm20r1e5bykz1rprdah].[none:NPROPNAME_2016:nk]</field>
+            <field>[federated.130a83c0uqm20r1e5bykz1rprdah].[none:YEAR_2012:qk]</field>
+            <field>[federated.130a83c0uqm20r1e5bykz1rprdah].[none:YEAR_2016:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{4DC44C66-7E50-472D-A4A5-2B884A3697E6}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.130a83c0uqm20r1e5bykz1rprdah].[none:GENERIC_DRUG_IND_CODE_2016:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{1D7FEA0B-AEAD-459D-86EB-F611E23BB167}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+      z5r/H6/DBof99Y5JAAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='64' name='Sheet 2' width='184'>
+      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
+      AAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
