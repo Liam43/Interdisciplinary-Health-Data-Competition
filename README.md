@@ -8,4 +8,4 @@ Most of our work was done in Google Drive and Hangouts, and I'm writing this Git
 ### Datasets and Data Cleaning
 The data we used came from the Minnesota Department of Health's All Payer Claims Database. The data came in the form of two spreadsheets: Prescription Summary and Drug Detail. We ran into difficulties almost immediately.
 
-(Summary Still in Progress)
+(Summary Still in Progress, Please see Final Presentation Powerpoint)
