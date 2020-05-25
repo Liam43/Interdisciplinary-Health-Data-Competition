@@ -16,5 +16,9 @@ The dataset we had was fairly rich containing several thousand rows with a good 
 
 So we started simple. The first thing we did was create as many graphs, charts, tables and views as we possibly could, hoping that we'd run into some kind of pattern into which we could perform a deeper dive. This method fortunately yielded some results in the form of this chart. 
 
+(Insert Chart here)
+
+We found that Cardiovascular Drugs contained a significant disparity in terms of prevalence and the amount of it covered by insurance.
+
 
 (Summary Still in Progress, Please see Final Presentation Powerpoint)
