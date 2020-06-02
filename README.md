@@ -20,5 +20,16 @@ So we started simple. The first thing we did was create as many graphs, charts, 
 
 We found that Cardiovascular Drugs contained a significant disparity in terms of prevalence and the amount of it covered by insurance.
 
-
 (Summary Still in Progress, Please see Final Presentation Powerpoint)
+
+
+### Clustering Analysis
+
+
+### Potential Solutions
+
+
+### Cost Benefit Analysis
+
+
+### Conclusion
